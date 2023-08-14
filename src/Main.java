@@ -3,8 +3,8 @@ public class Main {
         task1();
         task2();
         task3();
-        task4();/*
-        task5();
+        task4();
+        task5();/*
         task6();
         task7();
         task8();
@@ -40,6 +40,14 @@ public class Main {
         System.out.println("Task 4");
         for (int i = 10; i > -11; i--) {
             System.out.println(i);
+        }
+        System.out.println();
+    }
+
+    public static void task5() {
+        System.out.println("Task 5");
+        for (int i = 1904; i <= 2096; i = i + 4) {
+            System.out.printf("%d год является високосным \n", i);
         }
         System.out.println();
     }
