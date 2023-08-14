@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
-        task3();/*
-        task4();
+        task3();
+        task4();/*
         task5();
         task6();
         task7();
@@ -31,6 +31,14 @@ public class Main {
     public static void task3() {
         System.out.println("Task 3");
         for (int i = 2; i < 17; i = i + 2) {
+            System.out.println(i);
+        }
+        System.out.println();
+    }
+
+    public static void task4() {
+        System.out.println("Task 4");
+        for (int i = 10; i > -11; i--) {
             System.out.println(i);
         }
         System.out.println();
